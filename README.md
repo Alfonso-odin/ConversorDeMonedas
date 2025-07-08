@@ -27,20 +27,34 @@ Este proyecto se conecta a una API de tipo de cambio en tiempo real:
 
 ## 📁 Estructura del Proyecto
 
+```
 Conversor-De-Monedas/
 ├── .idea/
 ├── Lib/
 ├── out/
 ├── src/
-│ ├── Config/ # Clases de configuración
-│ ├── config.properties # Archivo de configuración con claves API, endpoints, etc.
-│ ├── ConversorDeMonedas.java # Clase principal
-│ ├── ConversorMenu.java # Menú de usuario
-│ ├── MonedaDigital.java # Lógica relacionada a criptomonedas
+│   ├── Config/                 # Clases de configuración
+│   ├── config.properties       # Archivo de configuración con claves API, endpoints, etc.
+│   ├── ConversorDeMonedas.java  # Clase principal
+│   ├── ConversorMenu.java      # Menú interactivo
+│   ├── MonedaDigital.java      # Conversión de criptomonedas
 ├── .gitignore
 ├── ConversorDeMonedas.iml
+```
+
+## ⚙️ Cómo ejecutar
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Alfonso-odin/ConversorDeMonedas.git
+   ```
+2. Abre el proyecto en tu IDE (por ejemplo, IntelliJ IDEA).
+3. Asegúrate de tener Java 11 o superior instalado.
+4. Configura el archivo `config.properties` con tu clave de API y los endpoints necesarios.
+5. Ejecuta la clase `ConversorDeMonedas`.
 
 
+## 🧠 Autor
 
-Proyecto creado por Alfonso Rendón.
+Proyecto desarrollado por **Alfonso Rendón**.
 
